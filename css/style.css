@@ -1,0 +1,116 @@
+body {
+    background: url(/images/webpage_bg.jpg) no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+#layout {
+    height: 100%;
+    padding: 15px;
+}
+
+/* Header */
+
+#header{
+    margin-bottom: 20px;
+}
+
+#navbar{
+    display: flex;
+}
+
+#navbar .navbar-items{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    align-self: center;
+}
+
+/* Sidebar */
+
+#sidebar{
+    background-color: #e8edf2;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+#sidebar .archive-wrapper h2{
+    margin: 0
+}
+
+#sidebar .archive-wrapper a{
+    text-decoration: none;
+    color: #00f;
+}
+
+/* Content */
+
+#content{
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #e8edf2;
+    padding: 10px;
+}
+
+#blogs{
+    
+    
+}
+
+.blog{
+    background-color: rgb(197, 197, 197);
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.blog:last-child{
+    margin-bottom: 0;
+}
+
+.blog .img-wrapper {
+    width: 40%;
+
+}
+
+.blog .description {
+    width: 60%;
+    padding: 0 10px;
+}
+
+.description h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.description h3{
+    color: #3D4849;
+}
+
+/* Footert */
+
+#footer{
+    background-color: #e8edf2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+#footer .social-media {
+    text-align: center;
+}
+
+#footer .internals a{
+    display: block;
+    margin-bottom: 10px;
+    color: #00f;
+    text-decoration: none;
+
+
+}
