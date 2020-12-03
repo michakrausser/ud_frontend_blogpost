@@ -1,0 +1,23 @@
+#header{
+    margin-bottom: 20px;
+}
+
+#navbar{
+    display: flex;
+}
+
+#navbar .navbar-items{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    align-self: center;
+}
+
+#header .website-headline{
+    color: #fff;
+    text-align: center;
+}
+
+#header .website-description{
+    color: #fff;
+}
