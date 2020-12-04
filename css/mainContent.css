@@ -8,7 +8,7 @@
 
 .blog{
     background-color: rgb(197, 197, 197);
-    border: 1px solid #000;
+    border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
     display: flex;
@@ -34,9 +34,14 @@
 
 .description h3{
     color: #3D4849;
+    font-size: 16px;
 }
 
 /* Blog-Post.html */
+
+#blog-post{
+    margin: 10px;
+}
 
 #blog-post h2{
     margin-top: 0px;
@@ -48,8 +53,9 @@
     color: #808080;
 }
 
-#blog-post .blog-post-img{
+#blog-post .image-wrapper{
     margin: 20px 0;
+    text-align: center;
 }
 
 #blog-post h3{
@@ -68,8 +74,59 @@
     font-weight: bold;
 }
 
-
-
 .address{
     margin-top: 30px;
+}
+
+#blog-post .button-wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog-post button{
+    border-radius: 15px;
+    color: #fff;
+    outline: none;
+}
+
+#blog-post .older-post{
+    background-color: #808080;
+    
+}
+
+#blog-post .newer-post{
+    background-color: #008CBA;
+
+}
+
+@media (min-width: 768px) {
+    #content{
+        padding: 20px 20px 0;
+    }
+
+    #blogs{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .blog{
+        width: calc(50% - 30px);
+        margin-bottom: 20px;
+    }
+
+    .blog:last-child{
+        margin-bottom: auto;
+    }
+
+    /* Blog-Post.html */
+
+    #blog-post .button-wrapper{
+        margin-top: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
 }

@@ -15,6 +15,21 @@
     margin-bottom: 10px;
     color: #00f;
     text-decoration: none;
+}
 
+@media (min-width: 768px) {
+    #footer{
+        padding: 40px 20px;
+    }
+
+
+    #footer .social-media{
+        display: flex;
+    }
+
+    #footer .social-media img{
+        width: 50px;
+        margin: 0 20px;
+    }
 
 }

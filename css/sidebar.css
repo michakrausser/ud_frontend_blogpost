@@ -13,3 +13,10 @@
     text-decoration: none;
     color: #00f;
 }
+
+@media (min-width: 768px) {
+    #sidebar{
+        padding: 20px;
+    }
+
+}

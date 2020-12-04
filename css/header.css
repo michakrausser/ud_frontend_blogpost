@@ -21,3 +21,14 @@
 #header .website-description{
     color: #fff;
 }
+
+@media (min-width: 768px) {
+    #sidebar{
+        padding: 20px;
+    }
+
+    #header .website-description{
+        margin: 30px 0 50px;
+    }
+
+}
