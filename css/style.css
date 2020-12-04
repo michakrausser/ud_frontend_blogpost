@@ -30,3 +30,37 @@ body {
         font-size: 24px;
     }
 }
+
+@media (min-width: 1200px) {
+    body{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    #layout{
+        margin: 0 auto;
+        max-width: 1140px;
+        display: grid;
+        grid-template-columns: 70% calc(30% - 20px);
+        grid-template-areas:
+            'hd hd'
+            'main sb'
+            'ft ft';
+        grid-column-gap: 20px;
+    }
+}
