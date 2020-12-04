@@ -6,10 +6,6 @@
     border-radius: 5px;
 }
 
-#footer .social-media {
-    text-align: center;
-}
-
 #footer .internals a{
     display: block;
     margin-bottom: 10px;
@@ -17,19 +13,26 @@
     text-decoration: none;
 }
 
+#footer .social-media{
+    display: flex;
+    align-items: center;
+}
+
+#footer .social-media img{
+    width: 30px;
+    margin: 0 5px;
+    
+}
+
 @media (min-width: 768px) {
     #footer{
         padding: 40px 20px;
     }
 
-
-    #footer .social-media{
-        display: flex;
-    }
-
     #footer .social-media img{
         width: 50px;
         margin: 0 20px;
+        
     }
 
 }

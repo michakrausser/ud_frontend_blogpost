@@ -61,12 +61,40 @@
 
 #blog-post h2{
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 #blog-post .date{
     margin-top: 5px;
     color: #808080;
+}
+
+#blog-post .card{
+    display: flex;
+    align-items: center;
+}
+
+#blog-post .card .avatar-wrapper{
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #808080;
+    text-align: center;
+    z-index: 1;
+}
+
+#blog-post .card .avatar-wrapper .avatar{
+    position: relative;
+    border-radius: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+#blog-post .card .description-wrapper{
+    margin: 10px 20px;
+    font-weight: bold;
 }
 
 #blog-post .image-wrapper{
