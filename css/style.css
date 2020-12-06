@@ -4,7 +4,7 @@
 @import 'footer.css';
 
 body {
-    background: url(/images/webpage_bg.jpg) no-repeat;
+    background: url(images/webpage_bg.jpg) no-repeat;
     background-size: cover;
     min-height: 100vh;
     margin: 0;
