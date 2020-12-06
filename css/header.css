@@ -1,4 +1,4 @@
-#header{
+#header-section{
     margin-bottom: 20px;
 }
 
@@ -14,21 +14,21 @@
     align-self: center;
 }
 
-#header .website-headline{
+#header-section .website-headline{
     color: #fff;
     text-align: center;
 }
 
-#header .website-description{
+#header-section .website-description{
     color: #fff;
 }
 
 @media (min-width: 768px) {
-    #header{
+    #header-section{
         padding: 20px;
     }
 
-    #header .website-description{
+    #header-section .website-description{
         max-width: 700px;
         margin: 30px auto 50px;
     }
@@ -36,7 +36,7 @@
 }
 
 @media (min-width: 1200px) {
-    #header{
+    #header-section{
         grid-area: hd;
     }
 

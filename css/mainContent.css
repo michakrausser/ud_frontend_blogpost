@@ -47,7 +47,7 @@
     grid-area: link;
 }
 
-.blog h2, h3, p {
+.blog .blog-text {
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -59,7 +59,7 @@
     margin: 10px;
 }
 
-#blog-post h2{
+#blog-post .heading{
     margin-top: 0px;
     margin-bottom: 30px;
     text-align: center;
@@ -95,6 +95,10 @@
 #blog-post .card .description-wrapper{
     margin: 10px 20px;
     font-weight: bold;
+}
+
+#blog-post .card .description-wrapper .text{
+    margin: 5px 0;
 }
 
 #blog-post .image-wrapper{
